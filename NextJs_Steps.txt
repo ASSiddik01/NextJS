@@ -1,2 +1,3 @@
-Create next app - yarn create next-app
+Create next app - npx create-next-app@latest
 Give Project name
+Project run - npm run dev 
