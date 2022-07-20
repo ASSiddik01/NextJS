@@ -1,0 +1,2 @@
+Create next app - yarn create next-app
+Give Project name
