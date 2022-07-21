@@ -1,3 +1,13 @@
 Create next app - npx create-next-app@latest
 Give Project name
 Project run - npm run dev 
+Parsing error : Cannot find module 'next/babel'
+    Create file called .babelrc in your root directory and add this code:
+        {
+            "presets": ["next/babel"],
+            "plugins": []
+        }
+    And in .eslintrc, replace the existing code with:
+        {
+            "extends": ["next/babel","next/core-web-vitals"]
+        }
