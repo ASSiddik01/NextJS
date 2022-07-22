@@ -11,3 +11,16 @@ Parsing error : Cannot find module 'next/babel'
         {
             "extends": ["next/babel","next/core-web-vitals"]
         }
+
+Normal Route
+    Just create a page
+
+Nested Route
+    Just create folder then create a page
+
+Dynamic Route:
+    > create file like as - [file_name].js
+    > make react component and id destructuring
+        import { useRouter } from "next/router";
+        const router = useRouter();
+        const id = router.query.id;
