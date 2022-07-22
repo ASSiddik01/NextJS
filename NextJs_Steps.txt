@@ -20,7 +20,14 @@ Nested Route
 
 Dynamic Route:
     > create file like as - [file_name].js
-    > make react component and id destructuring
+    > make react component and id destructuring from url
         import { useRouter } from "next/router";
         const router = useRouter();
         const id = router.query.id;
+
+Next Head component
+    import head component from next - import Head from 'next/head'
+
+Next Script component
+    import script component - import Script from "next/script";
+    for use third party script file - strategy="lazyOnload"
