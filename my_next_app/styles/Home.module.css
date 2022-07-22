@@ -114,3 +114,7 @@
     flex-direction: column;
   }
 }
+
+.blogItem h1 {
+  color: brown;
+}

@@ -14,3 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.blogItem h1 {
+  color: blueviolet;
+}

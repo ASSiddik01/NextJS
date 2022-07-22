@@ -31,3 +31,7 @@ Next Head component
 Next Script component
     import script component - import Script from "next/script";
     for use third party script file - strategy="lazyOnload"
+
+Next Link component
+    import link component - import Link from "next/link";
+    example - <Link href="/about">About</Link>
