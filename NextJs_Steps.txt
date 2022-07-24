@@ -1,6 +1,7 @@
 Create next app - npx create-next-app@latest
 Give Project name
 Project run - npm run dev 
+Next file structure
 Parsing error : Cannot find module 'next/babel'
     Create file called .babelrc in your root directory and add this code:
         {
@@ -38,6 +39,10 @@ Next Link Component
     import link Component - import Link from "next/link";
     example - <Link href="/about">About</Link>
 
+Next Image Component
+    import image component - import Image from "next/image";
+    Use example - <Image src={codaing} alt="" width={700} height={400} />
+
 Next Style Component
     css file name structure - your_file_name.module.css
     import example - import styles from "../styles/Home.module.css";
@@ -55,11 +60,13 @@ Next Style JSX Component
           `}
         </style>
 
-Next Header & Footer Compoment
+Next Header & Footer Component
     Use like this in _app.js
         <>
             <Navbar />
             <Component {...pageProps} />
             <Footer />
         </>
+
+
 
