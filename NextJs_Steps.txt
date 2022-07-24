@@ -60,3 +60,8 @@ Next Header & Footer Compoment
             <Component {...pageProps} />
             <Footer />
         </>
+
+Next File nameing conversion
+    Page file name start with small later - about.js
+    Dynamic page file start with bracket - [file_name].js
+    CSS file start with capital letter - Home.module.css
