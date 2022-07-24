@@ -12,18 +12,20 @@ Parsing error : Cannot find module 'next/babel'
             "extends": ["next/babel","next/core-web-vitals"]
         }
 
-Normal Route
-    Just create a page
+Next File nameing conversion
+    Page file name start with small later - about.js
+    Dynamic page file start with bracket - [file_name].js
+    CSS file start with capital letter - Home.module.css
 
-Nested Route
-    Just create folder then create a page
-
-Dynamic Route:
-    > create file like as - [file_name].js
-    > make react Component and id destructuring from url
-        import { useRouter } from "next/router";
-        const router = useRouter();
-        const id = router.query.id;
+Next Routing
+    Normal Route - Just create a page
+    Nested Route - Just create folder then create a page
+    Dynamic Route:
+        > create file like as - [file_name].js
+        > make react Component and id destructuring from url
+            import { useRouter } from "next/router";
+            const router = useRouter();
+            const id = router.query.id;
 
 Next Head Component
     import head Component from next - import Head from 'next/head'
@@ -61,7 +63,3 @@ Next Header & Footer Compoment
             <Footer />
         </>
 
-Next File nameing conversion
-    Page file name start with small later - about.js
-    Dynamic page file start with bracket - [file_name].js
-    CSS file start with capital letter - Home.module.css
