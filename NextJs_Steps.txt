@@ -52,5 +52,11 @@ Next Style JSX Component
             }
           `}
         </style>
-    
-    
+
+Next Header & Footer Compoment
+    Use like this in _app.js
+        <>
+            <Navbar />
+            <Component {...pageProps} />
+            <Footer />
+        </>

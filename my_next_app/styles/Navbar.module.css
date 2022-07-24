@@ -1,0 +1,11 @@
+.main_menu {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.main_menu li {
+  padding: 20px;
+}

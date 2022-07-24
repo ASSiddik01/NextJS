@@ -18,3 +18,7 @@ a {
 .blogItem h1 {
   color: blueviolet;
 }
+
+.center {
+  text-align: center;
+}
