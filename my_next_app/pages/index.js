@@ -19,6 +19,14 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
+        <style jsx>
+          {`
+            .name {
+              color: red;
+            }
+          `}
+        </style>
+        <h2 className="name yello_bg">Abu Shama</h2>
         <Link href="/about">About</Link>
 
         <p className={styles.description}>Get started by editing </p>

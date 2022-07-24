@@ -20,18 +20,37 @@ Nested Route
 
 Dynamic Route:
     > create file like as - [file_name].js
-    > make react component and id destructuring from url
+    > make react Component and id destructuring from url
         import { useRouter } from "next/router";
         const router = useRouter();
         const id = router.query.id;
 
-Next Head component
-    import head component from next - import Head from 'next/head'
+Next Head Component
+    import head Component from next - import Head from 'next/head'
 
-Next Script component
-    import script component - import Script from "next/script";
+Next Script Component
+    import script Component - import Script from "next/script";
     for use third party script file - strategy="lazyOnload"
 
-Next Link component
-    import link component - import Link from "next/link";
+Next Link Component
+    import link Component - import Link from "next/link";
     example - <Link href="/about">About</Link>
+
+Next Style Component
+    css file name structure - your_file_name.module.css
+    import example - import styles from "../styles/Home.module.css";
+    use example - className={styles.container}
+    Nextjs style convert into a object - console.log(styles);
+    global css use to all file and it import into _app.js
+    
+Next Style JSX Component
+    Example:-
+        <style jsx>
+          {`
+            .name {
+              color: red;
+            }
+          `}
+        </style>
+    
+    
